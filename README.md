@@ -1,7 +1,5 @@
 # True-Freedom — You Are Being Used
 
-> Porn is a weapon. Not a pleasure. Not a release. A debt you keep paying in dopamine, time, and self-respect.
-
 A horror-themed recovery tracker for quitting pornography, built on the **Easy Peasy Method** (which itself adapts Allen Carr's EasyWay). This repo contains:
 
 **A native Android app** (`True-Freedom-android/`) — built with Kotlin + Jetpack Compose. **No WebView.** Every screen is rendered natively. Pre-built APK included (`True-Freedom-debug.apk`).
