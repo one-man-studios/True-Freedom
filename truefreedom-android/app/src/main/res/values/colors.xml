@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_deep">#FF050204</color>
+    <color name="blood_bright">#FFFF1A1A</color>
+    <color name="text_primary">#FFF4E8E0</color>
+</resources>
