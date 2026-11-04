@@ -188,4 +188,4 @@ This app is a self-help tool, not medical advice. If you are experiencing severe
 
 ## License
 
-MIT — see (LICENSE). The code is yours. The mission is everyone's.
+MIT — see https://github.com/one-man-studios/True-Freedom/blob/main/LICENSE. The code is yours. The mission is everyone's.
