@@ -1,10 +1,10 @@
-# True Freedom — You Are Being Used
+# True-Freedom — You Are Being Used
 
 > Porn is a weapon. Not a pleasure. Not a release. A debt you keep paying in dopamine, time, and self-respect.
 
 A horror-themed recovery tracker for quitting pornography, built on the **Easy Peasy Method** (which itself adapts Allen Carr's EasyWay). This repo contains:
 
-**A native Android app** (`weaponized-android/`) — built with Kotlin + Jetpack Compose. **No WebView.** Every screen is rendered natively. Pre-built APK included (`weaponized-debug.apk`).
+**A native Android app** (`True-Freedom-android/`) — built with Kotlin + Jetpack Compose. **No WebView.** Every screen is rendered natively. Pre-built APK included (`True-Freedom-debug.apk`).
 
 Both apps share the same content, the same dark horror aesthetic, and the same mission: replace the question *"Am I resisting?"* with *"The question no longer arises."*
 
@@ -76,8 +76,8 @@ Every source card opens its link in the external browser.
 .
 ├── README.md                      # This file
 ├── LICENSE                        # MIT
-├── weaponized-debug.apk           # Pre-built debug APK (ready to install)
-└── weaponized-android/            # Native Android app source
+├── True-Freedom-debug.apk           # Pre-built debug APK (ready to install)
+└── True-Freedom-android/            # Native Android app source
     ├── build.gradle.kts
     ├── settings.gradle.kts
     ├── gradle.properties
@@ -93,7 +93,7 @@ Every source card opens its link in the external browser.
         ├── proguard-rules.pro
         └── src/main/
             ├── AndroidManifest.xml           # No INTERNET permission
-            ├── java/com/weaponized/recovery/
+            ├── java/com/True-Freedom/recovery/
             │   ├── MainActivity.kt              # Entry point, topbar, viewnav, dialogs
             │   ├── data/
             │   │   ├── Content.kt               # All static content (facts, damage, sources, etc.)
@@ -115,14 +115,14 @@ Every source card opens its link in the external browser.
 
 **Option A — Pre-built debug APK (fastest)**
 
-A pre-built debug APK is included: `weaponized-debug.apk`
+A pre-built debug APK is included: `True-Freedom-debug.apk`
 
 ```bash
 # Transfer to your phone, tap to install.
 # Enable "Install unknown apps" for your file manager.
 
 # OR via adb:
-adb install weaponized-debug.apk
+adb install True-Freedom-debug.apk
 ```
 
 **Option B — Build from source**
@@ -131,7 +131,7 @@ The Gradle wrapper is included — no system Gradle needed.
 
 ```bash
 git clone https://github.com/one-man-studios/true-freedom.git
-cd true-freedom/weaponized-android
+cd true-freedom/True-Freedom-android
 
 export ANDROID_HOME=/path/to/android-sdk
 
@@ -139,7 +139,7 @@ export ANDROID_HOME=/path/to/android-sdk
 # Output: app/build/outputs/apk/debug/app-debug.apk
 ```
 
-Or open the `weaponized-android/` folder in Android Studio.
+Or open the `True-Freedom-android/` folder in Android Studio.
 
 #### System requirements
 
